@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ElasticSearch from 'elasticsearch'
 
 class App extends Component {
   render() {
@@ -9,7 +10,15 @@ class App extends Component {
 
     }
     return (
-        <h1 style={style}>THE APP IS UP AND RUNNIN</h1>
+      <div style={style}>
+        <h1>Basic Search Application</h1>
+        <p>I'm going to be using this to practice building a search engine.
+        I need to familiarize myself with ElasticSearch for work. </p>
+        <form>
+            <input type="text" input="Search" />
+            <input type="submit" value="Go!" />
+        </form>
+      </div>
     );
   }
 }
