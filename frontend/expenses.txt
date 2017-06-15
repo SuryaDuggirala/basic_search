@@ -1,0 +1,16 @@
+misc
+Safeway
+Stamps
+9.80
+Hygiene
+Safeway
+Deoderant
+7.98
+Toiletries
+Safeway
+Shower Gel
+7.00
+Travel
+Uber
+Ubered to and from Safeway
+10.28

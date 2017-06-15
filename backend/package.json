@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend server for a search application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Surya Duggirala",
+  "license": "ISC",
+  "dependencies": {
+    "auth0-api-jwt-rsa-validation": "0.0.1",
+    "express": "^4.15.3",
+    "express-jwt": "^5.3.0",
+    "sequelize-cli": "^2.7.0"
+  }
+}
